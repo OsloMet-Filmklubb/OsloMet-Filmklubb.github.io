@@ -1,0 +1,8 @@
+{{- $paramName := .Get 0 -}}          {{/* Første argument: navnet på front matter-parameteren */}}
+{{- $default := .Get 1 | default "" -}}  {{/* Andre argument: standardverdi hvis parameter mangler */}}
+
+{{- with index .Page.Params $paramName -}}
+  {{- . -}}
+{{- else -}}
+  {{- $default -}}
+{{- end -}}

@@ -1,0 +1,7 @@
+{{- $paramName := .Get 0 -}}
+{{- $default := .Get 1 | default "" -}}
+{{- with index .Page.Params $paramName -}}
+  {{- . | markdownify -}}
+{{- else -}}
+  {{- $default | markdownify -}}
+{{- end -}}
