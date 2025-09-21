@@ -3,3 +3,7 @@
   --foreground: #eceae5;
   --accent: #ffdc00;
 }
+
+.menu__dropdown>li a {
+  word-break: initial;
+}
