@@ -15,4 +15,4 @@ Stay tuned!
 
 
 ## Har du spørsmål?
-Send oss en mail på [oslometfilmklubb@gmail.com](mailto:oslometfilmklubb+kontakt@gmail.com)
+Send oss en mail på [oslometfilmklubb@gmail.com](mailto:oslometfilmklubb@gmail.com)
