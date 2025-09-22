@@ -42,4 +42,4 @@ plakatURL: "https://image.tmdb.org/t/p/original/ecL8h0R2fGypk8SPQW2aPbuhVL8.jpg"
 {{< markdownParam "summary" >}}
 
 ![Plakat for {{< param "filmtittel" "Ukjent" >}}]({{< param "plakatURL" "Ukjent" >}})
-*{{< param "filmtittel" "Ukjent" >}} ({{< param "utslippsår" "Ukjent" >}}) [kilde]({{< param "plakatURL" "Ukjent" >}})* 
+*{{< param "filmtittel" "Ukjent" >}} ({{< param "utslippsår" "Ukjent" >}}). Informasjon og bilder hentet fra [The Movie Database](https://www.themoviedb.org/)* 

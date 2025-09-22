@@ -6,7 +6,7 @@ title: "" # vanligvis navnet på filmen med årstall. Eks: "The Lighthouse (2019
 date: {{ .Date }}              # Dato for visning
 publishDate: {{ .Date }}       # Når innlegget blir synlig på siden
 expiryDate: {{ .Date }}        # Når innlegget automatisk skjules (sett gjerne til dagen etter visning)
-cover: ""                      # liggende bilde, gjerne fra themoviedb.org (brukes i lister og previews)
+cover: ""                      # liggende bilde, gjerne fra themoviedb.org (brukes i lister og previews). HUSK å redigere kilden nederst på siden om det ikke er fra themoviedb.org!
 summary: ""                    # Kort introduksjon, 1–2 setninger
 author: ""                     # Filmens tagline / sitat
 tags:                          # Metadata for søk og filtrering
@@ -28,7 +28,7 @@ utslippsår: 0                  # Eks. 2019
 spilletid: 0                   # I minutter
 aldersgrense: 0                # 0 = Alle
 filmbeskrivelse: ""            # Ca ett avsnitt, bruk markdown. Unngå spoilers.
-plakat: ""                     # Lenke til original plakat (stående bilde, gjerne fra themoviedb.org)
+plakat: ""                     # Lenke til original plakat (stående bilde, gjerne fra themoviedb.org). HUSK å redigere kilden nederst på siden om det ikke er fra themoviedb.org!
 ---
 ## Visningsinformasjon
 **Tid:**            {{< dateformat >}} - {{< param "klokkeslett" "Ukjent" >}}  
@@ -44,5 +44,5 @@ plakat: ""                     # Lenke til original plakat (stående bilde, gjer
 {{< markdownParam "filmbeskrivelse" >}}
 
 ![Plakat for {{< param "filmtittel" "Ukjent" >}}]({{< param "plakat" "Ukjent" >}})
-*{{< param "filmtittel" "Ukjent" >}} ({{< param "utslippsår" "Ukjent" >}}) [kilde]({{< param "plakat" "Ukjent" >}})* 
+*{{< param "filmtittel" "Ukjent" >}} ({{< param "utslippsår" "Ukjent" >}}). Informasjon og bilder hentet fra [The Movie Database](https://www.themoviedb.org/)* 
 

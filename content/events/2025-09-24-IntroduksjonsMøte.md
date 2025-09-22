@@ -22,4 +22,4 @@ Vi trenger folk til å danne en oppstartsgruppe. Kom gjerne og vis din interesse
 
 
 ![The Lightouse Poster](https://image.tmdb.org/t/p/original/ecL8h0R2fGypk8SPQW2aPbuhVL8.jpg)
-*The Lighthouse (2019) [kilde](https://image.tmdb.org/t/p/original/ecL8h0R2fGypk8SPQW2aPbuhVL8.jpg)*
+*The Lighthouse (2019). Informasjon og bilder hentet fra [The Movie Database](https://www.themoviedb.org/)*
