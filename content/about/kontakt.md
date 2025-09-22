@@ -1,7 +1,7 @@
 ---
 title: "Kontakt Oss"
 date: ""
-draft: true
+draft: false
 weight: 5
 summary: Hellooo?
 ---
