@@ -9,10 +9,12 @@ title: "OsloMet Filmklubb"
 
 # Velkommen til OsloMet Filmklubb
 
-Dette er nettsiden til den nye studentforeningen OsloMet Filmklubb. Akuratt som klubben er denne nettsiden under utvikling.
-
-Stay tuned!
+Dette er nettsiden til den nye studentforeningen OsloMet Filmklubb. Her kan du lese om kommende visninger og hendelser.
 
 
 ## Har du spørsmål?
 Send oss en mail på [oslometfilmklubb@gmail.com](mailto:oslometfilmklubb@gmail.com)
+
+<br>
+
+# Neste på planen:
