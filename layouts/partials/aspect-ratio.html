@@ -1,0 +1,53 @@
+{{/*  {{ $ratio := .Get 0 | default (.Page.Params.aspectRatio) | default 1.85 }}  */}}
+{{ $ratio := 1.85 }}
+
+{{ if reflect.IsMap . }}
+  {{ $ratio = .Params.aspectRatio | default 1.85 }}
+{{ else }}
+  {{ $ratio = . | default 1.85 }}
+{{ end }}
+
+<div class="comparison-container">
+  <div class="scope-box">
+    <div class="film-box" style="aspect-ratio: {{ $ratio }}; {{ if ge $ratio 2.39 }} width: 100%; {{ else }} height: 100%; {{ end }}">
+      <span class="label">{{ $ratio }} : 1</span>
+    </div>
+  </div>
+</div>
+
+<style>
+  .comparison-container {
+    font-family: sans-serif;
+  }
+  .scope-box {
+    aspect-ratio: 2.39 / 1;
+    width: 100%;
+    background-color: var(--accent);
+    position: relative;
+    outline: 2px solid var(--accent);
+    {{/*  outline: 2px solid #202020;  */}}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    container-type: size;
+  }
+  .film-box {
+    max-height: 100%;
+    max-width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    position: relative;
+  }
+  .label {
+    position: absolute;
+    color: white;
+    font-size: 10cqw;
+    {{/*  font-size: 1.5rem;  */}}
+    text-shadow: 1px 1px 2px black;
+    white-space: nowrap;
+  }
+</style>

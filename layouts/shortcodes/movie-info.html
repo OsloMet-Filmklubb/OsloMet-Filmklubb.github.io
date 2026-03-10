@@ -1,0 +1,67 @@
+<table class="movie-info">
+  {{ with .Page.Params.filmtittel }}
+  <tr>
+    <td>Tittel:</td>
+    <td>{{ . }}</td>
+  </tr>
+  {{ end }} {{ with .Page.Params.utslippsår }}
+  <tr>
+    <td>Utslippsår:</td>
+    <td>{{ . }}</td>
+  </tr>
+  {{ end }} {{ with .Page.Params.spilletid }}
+  <tr>
+    <td>Spilletid:</td>
+    <td>{{ . }} min</td>
+  </tr>
+  {{ end }} {{ with .Page.Params.aldersgrense }}
+  <tr>
+    <td>Aldersgrense:</td>
+    <td>{{ . }} år</td>
+  </tr>
+  {{ end }} {{ with .Page.Params.tale }}
+  <tr>
+    <td>Tale:</td>
+    <td>{{ . }}</td>
+  </tr>
+  {{ end }} {{ with .Page.Params.tekst }}
+  <tr>
+    <td>Tekst:</td>
+    <td>{{ . }}</td>
+  </tr>
+  {{ end }} {{ with .Page.Params.aspectRatio }}
+  <tr>
+    <td>
+        Bildeformat:
+    </td>
+    <td><a href="/articles/bildeformater" alt="Les om bildeformater" style="text-decoration: none;">{{ . }} : 1</a></td>
+  </tr>
+
+  <tr>
+    <td colspan="2">{{ partial "aspect-ratio.html" . }}</td>
+  </tr>
+  {{ end }}
+</table>
+
+<style>
+  .movie-info {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    border: none;
+  }
+  .movie-info tr td {
+    padding: 12px 8px;
+    /* This creates the #333 line between rows */
+    border: none;
+    border-bottom: 1px solid #333;
+    vertical-align: top;
+  }
+  /* Removes the line from the very last row for a cleaner look */
+  .movie-info tr:last-child td {
+    border-bottom: none;
+  }
+  .movie-info td:first-child {
+    font-weight: bold;
+  }
+</style>
