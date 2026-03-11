@@ -1,5 +1,4 @@
 ---
-publishDate: 2025-09-01
 draft: false
 title: "Bildeformater"
 # summary: ""
