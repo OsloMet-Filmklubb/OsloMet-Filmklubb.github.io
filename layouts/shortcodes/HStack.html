@@ -1,0 +1,21 @@
+<div class="hstack" style=' 
+    gap: {{ .Get "gap" | default "1rem" }}; 
+    justify-content: {{ .Get "justify-content" | default "flex-start" }};
+    align-items: {{ .Get "align-items" | default "flex-start" }};'>
+  {{ .Inner | markdownify }}
+</div>
+<style>
+    .hstack{
+        display: flex; 
+        flex-direction: row; 
+        flex-wrap: wrap;
+    }
+    .hstack > * {
+      flex: 1;
+    }
+    @media (max-width: 684px) {
+        .hstack {
+            flex-direction: column;
+        }
+    }
+  </style>

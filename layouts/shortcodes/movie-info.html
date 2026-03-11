@@ -38,7 +38,11 @@
   </tr>
 
   <tr>
-    <td colspan="2">{{ partial "aspect-ratio.html" . }}</td>
+    <td colspan="2">
+      <div style="max-width: 200pt; margin-left: auto;">
+        {{ partial "aspect-ratio.html" . }}
+  </div>
+  </td>
   </tr>
   {{ end }}
 </table>
@@ -52,12 +56,10 @@
   }
   .movie-info tr td {
     padding: 12px 8px;
-    /* This creates the #333 line between rows */
     border: none;
     border-bottom: 1px solid #333;
     vertical-align: top;
   }
-  /* Removes the line from the very last row for a cleaner look */
   .movie-info tr:last-child td {
     border-bottom: none;
   }

@@ -1,0 +1,16 @@
+<div class="vstack" style=' 
+    gap: {{ .Get "gap" | default "1rem" }}; 
+    justify-content: {{ .Get "justify-content" | default "flex-start" }};
+    align-items: {{ .Get "align-items" | default "flex-start" }};'>
+  {{ .Inner | markdownify }}
+</div>
+
+<style>
+    .vstack {
+        display: flex; 
+        flex-direction: column; 
+    }
+    .vstack > * {
+      margin: 0;
+    }
+</style>
