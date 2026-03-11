@@ -10,6 +10,7 @@ title: "OsloMet Filmklubb"
 # Velkommen til OsloMet Filmklubb
 
 Dette er nettsiden til den nye studentforeningen OsloMet Filmklubb. Her kan du lese om kommende visninger og hendelser.
+Følg oss på [Instagram](https://www.instagram.com/oslometfilmklubb/)!
 
 
 ## Har du spørsmål?
