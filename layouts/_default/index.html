@@ -15,7 +15,7 @@
 
 {{/* Vis bare kommende events med den nærmeste øverst */}}
 {{ $filteredPages := where $PageContext.RegularPages "Type" "in" $allowedTypes }}
-{{ $futurePages := where $filteredPages "Date" "ge" now }}
+{{ $futurePages := where $filteredPages "Date" "gt" (now.AddDate 0 0 -1) }}
 {{ $paginator := .Paginate ($futurePages.ByDate) }}
 
     {{ range $paginator.Pages }}
