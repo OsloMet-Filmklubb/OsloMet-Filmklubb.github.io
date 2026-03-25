@@ -29,3 +29,6 @@ Når vi har registrert betalingen din får du en ny mail med kvittering.
 Den største utgiften til OsloMet Filmklubb er lisenser til filmene vi viser. Det koster oss rundt 1000kr-2000kr for hver enkelt visning, avhengig av rettighetshaver. Andre utgifter inkluderer kontigenter til NFK, overføringskostnader, drift av nettsiden, plakater, osv.
 
 Som en ideell organisasjon går alle våre inntekter til driften av foreningen.
+
+## Har du spørsmål?
+Send oss en mail på [oslometfilmklubb@gmail.com](mailto:oslometfilmklubb@gmail.com).
