@@ -125,3 +125,9 @@ pagination.pagerSize = 5
         url = "/about"
         weight = 3
 
+      [[languages.no.menu.main]]
+        identifier = "bli_medlem"
+        name = "Bli Medlem!"
+        url = "/articles/bli_medlem"
+        weight = 4
+
