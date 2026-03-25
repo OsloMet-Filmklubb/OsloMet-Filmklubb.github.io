@@ -14,7 +14,7 @@ Alle våre visninger krever medlemskap i en NFK-filmklubb. Slik fikser du det:
 
 1. **Registrer deg:** Fyll ut info i [medlemsregisteret vårt](https://www.filmklubbmedlem.no/registrer/130).
 
-2. **Betal kontigent:** Vipps 50kr for medlemskapet (varer hele semesteret). [Trykk her for å åpne Vipps](https://qr.vipps.no/vp/1PIak3gnp), eller søk opp OsloMet Filmklubb (#44327)
+2. **Betal kontigent:** Vipps 50kr for medlemskapet (varer hele semesteret). [Trykk her for å åpne Vipps](https://qr.vipps.no/vp/Ab_N4XxnM), eller søk opp OsloMet Filmklubb (#44327)
 Når vi har registrert betalingen din får du en ny mail med kvittering.
 
 3. **Nyt filmen:** Vis kvitteringen i døra. Noen visninger er helt gratis, mens andre har en rimelig billettpris for å dekke lisenskostnader.
