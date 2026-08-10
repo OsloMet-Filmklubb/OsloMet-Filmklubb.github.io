@@ -1,7 +1,7 @@
 ---
 date: 2025-09-24
 publishDate: 2025-09-01
-draft: false
+draft: true
 title: "Introduksjonsmøte"
 # summary: "Bli kjent med foreningen, spis pizza og se film."
 cover: "https://image.tmdb.org/t/p/original/sYLzRuEcwSz0L1Z92wQNrETHU9O.jpg"
