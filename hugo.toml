@@ -131,3 +131,9 @@ pagination.pagerSize = 5
         url = "/articles/bli_medlem"
         weight = 4
 
+      [[languages.no.menu.main]]
+        identifier = "var_kinosal"
+        name = "Vår Kinosal"
+        url = "/articles/var_kinosal"
+        weight = 5
+
