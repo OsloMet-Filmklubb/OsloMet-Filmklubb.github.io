@@ -40,7 +40,7 @@ summary: "After getting a flat tire in the middle of nowhere, newly engaged coup
 ## Visningsinformasjon:
 **Det blir servert gratis PIZZA! 🍕**
 
-**Inngangspris:**   Gratis!
+<!-- **Inngangspris:**   Gratis! -->
 <!-- *Alle visninger krever [gyldig NFK medlemskap](/articles/bli_medlem) (50kr/semester) -->
 **Tid:**            {{< dateformat >}} - {{< param "klokkeslett" "Ukjent" >}}  
 **Sted:**           {{< param "sted" "Ukjent" >}}  
